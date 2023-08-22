@@ -1,10 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import logo from '../logo.svg';
+import Button from '../components/ButtonPaint';
+import NavLink from '../components/NavLink'; // Chemin vers le composant Button
 
-function App() {
+
+
+function Home() {
   return (
     <div className="App">
       <header className="App-header">
+      <div>
+        <NavLink />
+      <Button label="Accueil" />
+      <Button label="Mes Projets" />
+    </div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -22,4 +31,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

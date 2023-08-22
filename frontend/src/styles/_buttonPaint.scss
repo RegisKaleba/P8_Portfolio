@@ -1,0 +1,26 @@
+/* Dans le fichier CSS Button.css */
+.custom-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative; /* Nécessaire pour le positionnement absolu */
+  }
+  
+  .button-container {
+    position: relative; /* Nécessaire pour le positionnement absolu */
+    display: inline-block;
+  }
+  
+  .button-image {
+    width: 100px; /* Ajustez la largeur selon vos besoins */
+    height: 100px; /* Ajustez la hauteur selon vos besoins */
+  }
+  
+  .button-label {
+    color: #fff; /* Couleur du texte */
+    position: absolute; /* Positionnement absolu pour superposer */
+    top: 50%; /* Déplacer le texte à mi-hauteur verticalement */
+    left: 50%; /* Déplacer le texte à mi-largeur horizontalement */
+    transform: translate(-50%, -50%); /* Centrage absolu */
+  }
