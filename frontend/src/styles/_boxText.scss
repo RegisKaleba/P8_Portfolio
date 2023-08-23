@@ -1,0 +1,10 @@
+/* Dans le fichier CSS TextBoxFrame.css */
+.text-box-frame {
+    background-color: #eee; /* Couleur de fond */
+    border: 2px solid #333; /* Bordure de 2px avec couleur #333 */
+    border-radius: 25px; /* Rayon de bordure de 25px */
+    padding: 20px; /* Espacement intérieur */
+    width: fit-content; /* Ajuste la largeur en fonction du contenu */
+    margin: 20px auto; /* Centre horizontalement avec 20px de marge verticale */
+    text-align: center; /* Centrer le texte */
+  }

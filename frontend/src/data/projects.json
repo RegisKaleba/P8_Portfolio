@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "titre": "Projet 1",
+      "logo": "/kasaLogo.png",
+      "image": "https://m.media-amazon.com/images/I/615VYUAAB1L.__AC_SY300_SX300_QL70_ML2_.jpg",
+      "description": "Description du projet 1.",
+      "competences": ["HTML", "CSS", "JavaScript"],
+      "lien": "https://lien-du-projet-1.com"
+    },
+    {
+      "id": 2,
+      "titre": "Projet 2",
+      "logo": "/bookiLogo.png",
+      "image": "image2.jpg",
+      "description": "Description du projet 2.",
+      "competences": ["React", "Node.js", "MongoDB"],
+      "lien": "https://lien-du-projet-2.com"
+    },
+    {
+      "id": 3,
+      "titre": "Projet 3",
+      "logo": "/mvgLogo.png",
+      "image": "image3.jpg",
+      "description": "Description du projet 3.",
+      "competences": ["Python", "Django", "PostgreSQL"],
+      "lien": "https://lien-du-projet-3.com"
+    }
+  ]

@@ -1,0 +1,43 @@
+/* App.css */
+
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom : 50px;
+  }
+  
+  .carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .carousel-arrow {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .carousel-arrow.left {
+    left: -50px;
+  }
+  
+  .carousel-arrow.right {
+    right: -25px;
+  }
+  
+  .carousel-image {
+    max-width: 100%;
+  }
+  
+  .image-position {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
