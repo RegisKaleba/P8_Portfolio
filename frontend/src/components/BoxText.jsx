@@ -2,16 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/_boxText.scss'; // Importation des styles CSS
 
-const TextBoxFrame = ({ text }) => {
+const TextBoxFrame = ({ content }) => {
   return (
     <div className="text-box-frame">
-      {text}
+      {content}
     </div>
   );
 };
 
 TextBoxFrame.propTypes = {
-  text: PropTypes.string.isRequired, // Propriété "text" est requise et doit être de type string
+  content: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.element
+  ]).isRequired,
 };
 
 export default TextBoxFrame;

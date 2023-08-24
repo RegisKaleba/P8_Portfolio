@@ -6,7 +6,7 @@ const Button = ({ label }) => {
     <button className="custom-button">
       <div className="button-content">
         <img src={paintStainOrange} alt="Paint Stain" className="button-image" />
-        <span className="button-label">{label}</span>
+        <span className="button-label gradient-text">{label}</span>
       </div>
     </button>
   );

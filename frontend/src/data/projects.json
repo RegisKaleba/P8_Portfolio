@@ -12,7 +12,7 @@
       "id": 2,
       "titre": "Projet 2",
       "logo": "/bookiLogo.png",
-      "image": "image2.jpg",
+      "image": "/bookiSite.png",
       "description": "Description du projet 2.",
       "competences": ["React", "Node.js", "MongoDB"],
       "lien": "https://lien-du-projet-2.com"

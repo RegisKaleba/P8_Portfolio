@@ -1,6 +1,10 @@
 /* Dans le fichier CSS TextBoxFrame.css */
+@import './_pouet.scss';
+
+
 .text-box-frame {
-    background-color: #eee; /* Couleur de fond */
+    color : $font-color-main;
+    background-color: $primary-color; /* Couleur de fond */
     border: 2px solid #333; /* Bordure de 2px avec couleur #333 */
     border-radius: 25px; /* Rayon de bordure de 25px */
     padding: 20px; /* Espacement intérieur */
