@@ -1,5 +1,27 @@
 /* Dans le fichier _app.scss */
+@import './_boxText.scss';
+
 .infos {
+    
     display: flex;
-    justify-content: space-between; /* Espace équitable entre les éléments */
+    justify-content: space-around; /* Espace équitable entre les éléments */
+
+   
   }
+
+  .box2 {
+
+    justify-content: space-between;
+    margin: 0px auto; /* Centre horizontalement avec 20px de marge verticale */
+    text-align: center; /* Centrer le texte */
+    color: aqua;
+   
+  
+}
+
+.centredTitle {
+
+  font-family: $jolly-lodger;
+  font-size: 25px;
+
+}

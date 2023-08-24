@@ -13,7 +13,8 @@ const NavLink = () => {
       <Link to="/projects">
         <Button label="Mes Projets" />
       </Link>
-      <Button label="Mes Bidules" />
+      <Button label="Mes Compétences" />
+      <Button label="A propos de moi" />
     </div>
   );
 };

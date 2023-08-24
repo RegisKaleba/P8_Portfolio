@@ -21,7 +21,7 @@
 
 }
 
-/* Styles pour le logo */
+
 .App-header {
   display: flex;
   flex-direction: column;
@@ -32,5 +32,12 @@
 
 .testo {
   width: 600px; /* Ajustez la taille du logo selon vos besoins */
+
+}
+
+.BoxTextHome {
+
+  width:500px; /* Ajuste la largeur en fonction du contenu */
+  background-color: #fff;
 
 }

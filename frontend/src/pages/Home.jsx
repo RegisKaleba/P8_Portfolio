@@ -1,7 +1,7 @@
 import React from 'react';
 import LogoRK from '../assets/LogoRK-resized.png';
 import NavLink from '../components/NavLink';
-import TextBox from '../components/BoxText';
+import TextBoxFrame from '../components/BoxText';
 
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
       </div>
       <header className="App-header">
         <img src={LogoRK} className="testo" alt="logo" />
-        <div className="BoxText">
-          <TextBox text="Bonjour ! Je m'appelle Régis Kaleba, développeur Fullstack et web-designeur" />
+        <div >
+          <TextBoxFrame  content="Bonjour ! Je m'appelle Régis Kaleba, développeur Fullstack et web-designeur" />
         </div>
       </header>
       
@@ -21,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;   

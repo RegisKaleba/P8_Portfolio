@@ -15,17 +15,23 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="">
       <div className="nav-bar">
         <NavLink />
       </div>
 
       <Carousel pictures={logos} onChange={handleCarouselChange} />
+      <p className='gradient-text centredTitle'>{currentProject.titre}</p>
+      <p>{currentProject.lien}</p>
 
       <div className="infos">
-        <TextBoxFrame content={currentProject.description} />
-        <TextBoxFrame content={<img src={currentProject.image} alt="Projet" />} />
-        <TextBoxFrame content={currentProject.competences.join(', ')} />
+
+        <div className="box2">
+          <TextBoxFrame size="medium"  content={currentProject.description} />
+          <TextBoxFrame size="medium"  content={currentProject.description} />
+        </div>
+        <TextBoxFrame size="large"  content={<img src={currentProject.image} alt="Projet" />} />
+        <TextBoxFrame size="small" content={currentProject.competences.join(', ')} />
       </div>
     </div>
   );
