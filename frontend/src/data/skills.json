@@ -1,0 +1,44 @@
+[
+    {
+      "Skills": "Frontend",
+      "Logo": "/reactLogo.png",
+      "Nom": "React",
+      "Rating": 2
+    },
+    {
+      "Skills": "Frontend",
+      "Logo": "/html5Logo.png",
+      "Nom": "Html 5",
+      "Rating": 2
+    },
+    {
+      "Skills": "Frontend",
+      "Logo": "/sassLogo.png",
+      "Nom": "Sass",
+      "Rating": 2
+    },
+    {
+      "Skills": "Backend",
+      "Logo": "/nodeJSLogo.png",
+      "Nom": "Node.js",
+      "Rating": 3
+    },
+    {
+        "Skills": "Backend",
+        "Logo": "/mongoDBLogo.png",
+        "Nom": "MongoDB",
+        "Rating": 3
+      },
+    {
+      "Skills": "Autres",
+      "Logo": "notionLogo.png",
+      "Nom": "Notion",
+      "Rating": 1
+    },
+    {
+        "Skills": "Autres",
+        "Logo": "figmaLogo.png",
+        "Nom": "Figma",
+        "Rating": 1
+      }
+  ]

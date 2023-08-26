@@ -1,0 +1,27 @@
+@import './_pouet.scss';
+
+.centered {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.sectionLogo {
+
+    margin-top: 50px ;
+    margin-bottom: 50px;
+
+}
+
+.skills-list {
+
+    display: flex;
+    flex-direction: inline;
+    justify-content: space-evenly;
+
+   
+
+}

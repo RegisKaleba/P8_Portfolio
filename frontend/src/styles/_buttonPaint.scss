@@ -28,13 +28,9 @@
     -webkit-text-stroke: 1px black; 
 }
   .gradient-text {
-    display: inline-block; // Assurez-vous que l'élément prend la largeur du texte
-    // Appliquez le gradient de couleur au texte
+    display: inline-block;
     background: $text-gradient;
     background-clip: text;
     color: transparent;
-    
-  
-    // Définissez la police ici
     font-family: $jolly-lodger;
   }
