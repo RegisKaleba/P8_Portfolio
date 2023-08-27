@@ -12,7 +12,7 @@ function Skills() {
   return (
 
     
-    <div className="skills">
+    <div className="skills backgroundWall">
 
       <div className="nav-bar">
         <NavLink />

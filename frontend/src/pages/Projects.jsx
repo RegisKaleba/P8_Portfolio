@@ -15,7 +15,7 @@ function App() {
   };
 
   return (
-    <div className="">
+    <div className="backgroundWall">
       <div className="nav-bar">
         <NavLink />
       </div>
@@ -32,6 +32,7 @@ function App() {
         </div>
         <TextBoxFrame size="large"  content={<img src={currentProject.image} alt="Projet" />} />
         <TextBoxFrame size="small" content={currentProject.competences.join(', ')} />
+      
       </div>
     </div>
   );

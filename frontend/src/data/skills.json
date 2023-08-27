@@ -1,14 +1,22 @@
 [
+    
     {
       "Skills": "Frontend",
       "Logo": "/reactLogo.png",
       "Nom": "React",
       "Rating": 2
     },
+    
     {
       "Skills": "Frontend",
       "Logo": "/html5Logo.png",
       "Nom": "Html 5",
+      "Rating": 2
+    },
+    {
+      "Skills": "Frontend",
+      "Logo": "/cssLogo.png",
+      "Nom": "CSS",
       "Rating": 2
     },
     {
@@ -29,6 +37,12 @@
         "Nom": "MongoDB",
         "Rating": 3
       },
+      {
+        "Skills": "Backend",
+        "Logo": "/expressLogo.webp",
+        "Nom": "Express.js",
+        "Rating": 3
+      },  
     {
       "Skills": "Autres",
       "Logo": "notionLogo.png",

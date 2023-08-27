@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import circlePaint from '../assets/circlePaint.png';
 import '../styles/_logo.scss';
 
 const Logo = ({ logo, nom, rating }) => {

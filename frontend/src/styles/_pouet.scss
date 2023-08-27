@@ -2,3 +2,12 @@ $primary-color: red;
 $text-gradient: linear-gradient(90deg, rgba(245, 249, 135, 1) 33%, rgba(231, 156, 12, 1) 76%);
 $jolly-lodger: 'Jolly Lodger', sans-serif;
 $font-color-main: linear-gradient(90deg, rgba(245,249,135,1) 33%, rgba(231,156,12,1) 76%);
+
+.backgroundWall {
+
+    background-image: url('../assets/whiteWall.jpg'); /* Utilisez l'image comme arrière-plan */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center; /* Centrez l'arrière-plan */
+
+}
