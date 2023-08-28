@@ -8,6 +8,7 @@ const TextBoxFrame = ({ content, size }) => {
     'large': size === 'large', // Appliquer la classe 'large' si la taille est 'large'
     'medium': size === 'medium', // Appliquer la classe 'small' si la taille est 'small'
     'small': size === 'small', // Appliquer la classe 'small' si la taille est 'small'
+    'tiny': size === 'tiny', // Appliquer la classe 'small' si la taille est 'small'
   });
 
   return (
@@ -22,7 +23,7 @@ TextBoxFrame.propTypes = {
     PropTypes.string,
     PropTypes.element
   ]).isRequired,
-  size: PropTypes.oneOf(['small', 'medium', 'large']), // Prop pour la taille
+  size: PropTypes.oneOf(['tiny','small', 'medium', 'large']), // Prop pour la taille
 };
 
 export default TextBoxFrame;

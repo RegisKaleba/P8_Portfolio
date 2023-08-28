@@ -21,19 +21,24 @@ function App() {
       </div>
 
       <Carousel pictures={logos} onChange={handleCarouselChange} />
-      <p className='gradient-text centredTitle'>{currentProject.titre}</p>
-      <p>{currentProject.lien}</p>
 
+      <div className="title-container">
+      <p className='styledText gradient-text'>{currentProject.titre}</p>
+      
+      </div>
+      <p>{currentProject.lien}</p>
       <div className="infos">
 
-        <div className="box2">
-          <TextBoxFrame size="medium"  content={currentProject.description} />
-          <TextBoxFrame size="medium"  content={currentProject.description} />
+        <div className='box2'>
+        <TextBoxFrame size="medium" content={currentProject.description} />
+        <TextBoxFrame size="medium" content={currentProject.competences.join(', ')} />
         </div>
         <TextBoxFrame size="large"  content={<img src={currentProject.image} alt="Projet" />} />
         <TextBoxFrame size="small" content={currentProject.competences.join(', ')} />
       
       </div>
+
+
     </div>
   );
 }

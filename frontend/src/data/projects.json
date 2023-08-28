@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "titre": "Projet 1",
+      "titre": "Créez une application web de location immobilière avec React",
       "logo": "/kasaLogo.png",
       "image": "https://m.media-amazon.com/images/I/615VYUAAB1L.__AC_SY300_SX300_QL70_ML2_.jpg",
       "description": "Description du projet 1.",
@@ -10,19 +10,37 @@
     },
     {
       "id": 2,
-      "titre": "Projet 2",
+      "titre": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
       "logo": "/bookiLogo.png",
       "image": "/bookiSite.png",
-      "description": "Description du projet 2.",
-      "competences": ["React", "Node.js", "MongoDB"],
+      "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+      "competences": ["Html", "CSS"],
       "lien": "https://lien-du-projet-2.com"
     },
     {
       "id": 3,
-      "titre": "Projet 3",
+      "titre": "Développez le back-end d'un site de notation de livres",
       "logo": "/mvgLogo.png",
       "image": "image3.jpg",
-      "description": "Description du projet 3.",
+      "description": "Vous êtes développeur back-end en freelance depuis maintenant un an dans la région de Lille. */ Il s’agit d’une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres.  ",
+      "competences": ["Python", "Django", "PostgreSQL"],
+      "lien": "https://lien-du-projet-3.com"
+    },
+    {
+      "id": 4,
+      "titre": "Créez une page web dynamique avec JavaScript",
+      "logo": "/bluelLogo.png",
+      "image": "image3.jpg",
+      "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+      "competences": ["Python", "Django", "PostgreSQL"],
+      "lien": "https://lien-du-projet-3.com"
+    },
+    {
+      "id": 5,
+      "titre": "Débuggez et optimisez un site de photographe",
+      "logo": "/carducciLogo.png",
+      "image": "image3.jpg",
+      "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
       "competences": ["Python", "Django", "PostgreSQL"],
       "lien": "https://lien-du-projet-3.com"
     }

@@ -1,6 +1,13 @@
 /* Dans le fichier _app.scss */
 @import './_boxText.scss';
 
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Ajustez la hauteur selon vos besoins */
+}
+
 .infos {
     
     display: flex;
@@ -10,7 +17,7 @@
   }
 
   .box2 {
-
+    width: 320px;
     justify-content: space-between;
     margin: 0px auto; /* Centre horizontalement avec 20px de marge verticale */
     text-align: center; /* Centrer le texte */

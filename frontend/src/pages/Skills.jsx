@@ -17,9 +17,9 @@ function Skills() {
       <div className="nav-bar">
         <NavLink />
       </div>
-
+      <h2 className='gradient-text styledText'>Frontend</h2>
       <section className='sectionLogo'>
-        <h2 className='centered'>Frontend</h2>
+        
         <div className="skills-list">
           {frontendSkills.map(skill => (
             <Logo 
