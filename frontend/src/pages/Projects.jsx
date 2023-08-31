@@ -4,7 +4,7 @@ import TextBoxFrame from '../components/BoxText'; // Assurez-vous que le chemin 
 import Carousel from '../components/Caroussel';
 import jsonData from '../data/projects.json';
 
-function App() {
+function Projects() {
   const logos = jsonData.map(project => project.logo);
   const [currentLogoIndex, setCurrentLogoIndex] = useState(0);
 
@@ -26,7 +26,11 @@ function App() {
       <p className='styledText gradient-text'>{currentProject.titre}</p>
       
       </div>
-      <p>{currentProject.lien}</p>
+      <div className="centered-link">
+        <a className='projectLink' href={currentProject.lien} target="_blank">
+          Cliquez ici pour ouvrir le lien dans une nouvelle fenêtre
+        </a>
+      </div>
       <div className="infos">
 
         <div className='box2'>
@@ -43,4 +47,4 @@ function App() {
   );
 }
 
-export default App;
+export default Projects;

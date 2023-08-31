@@ -5,7 +5,6 @@
     display: flex;
     flex-direction: column;
     width: 200px;
-    
     align-items: center; /* Centrer horizontalement */
     justify-content: center; /* Centrer verticalement */
     background-image: url('../assets/circlePaint.png'); /* Utilisez l'image comme arrière-plan */
@@ -17,6 +16,7 @@
 
 .blablabli {
     font-size: 29px;
+    font-family: Permanent Marker;
     -webkit-text-fill-color: transparent; 
     -webkit-text-stroke: 1px black; 
 
@@ -28,6 +28,11 @@
     height: 80px;
     
 
+}
+
+.gold {
+
+    color: aqua;
 }
 
 

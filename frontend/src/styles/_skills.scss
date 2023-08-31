@@ -1,20 +1,20 @@
 @import './_pouet.scss';
+.h3 {
+
+    font-size: 29px;
+}
+
 
 .centered {
 
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .sectionLogo {
     display: flex;
     flex-direction: column;
-    margin-top: 50px ;
-    margin-bottom: 50px;
-
 }
 
 .skills-list {
@@ -23,8 +23,5 @@
     flex-direction: inline;
    justify-content: space-evenly;
    flex-wrap: wrap;
-   
-
-   
 
 }

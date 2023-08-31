@@ -11,13 +11,15 @@ function Skills() {
 
   return (
 
-    
-    <div className="skills backgroundWall">
+    <div className="skills-page">
+    <div className="backgroundWall">
 
       <div className="nav-bar">
         <NavLink />
       </div>
-      <h2 className='gradient-text styledText'>Frontend</h2>
+      <div className="title-container">
+      <p className='gradient-text styledText'>Frontend</p>
+      </div>
       <section className='sectionLogo'>
         
         <div className="skills-list">
@@ -31,8 +33,14 @@ function Skills() {
           ))}
         </div>
       </section>
-      <section>
-        <h2 className='centered'>Backend</h2>
+     
+      
+      <div className="title-container">
+      <p className='gradient-text styledText'>Backend</p>
+      </div>
+
+      <section className='sectionLogo'>
+
         <div className="skills-list">
           {backendSkills.map(skill => (
             <Logo
@@ -43,9 +51,14 @@ function Skills() {
             />
           ))}
         </div>
+      
       </section>
-      <section>
-        <h2 className='centered'>Autres</h2>
+      
+      <div className="title-container">
+      <p className='gradient-text styledText'>Autres</p>
+      </div>
+
+      <section className='sectionLogo'>
         <div className="skills-list">
           {autresSkills.map(skill => (
             <Logo
@@ -56,7 +69,9 @@ function Skills() {
             />
           ))}
         </div>
-      </section>
+        </section>
+   
+    </div>
     </div>
   );
 }

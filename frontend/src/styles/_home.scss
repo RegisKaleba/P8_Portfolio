@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center; /* Centre horizontalement */
   background-image: url('../assets/whiteWall.jpg'); /* Utilisez l'image comme arrière-plan */
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; /* Centrez l'arrière-plan */
 }

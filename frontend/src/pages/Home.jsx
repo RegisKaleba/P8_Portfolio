@@ -13,9 +13,13 @@ function App() {
       <header className="App-header">
         <img src={LogoRK} className="testo" alt="logo" />
         <div >
-          <TextBoxFrame size="tiny" content="Bonjour ! Je m'appelle Régis Kaleba, développeur Fullstack et web-designeur" />
+          <TextBoxFrame size="tiny" content="Bonjour ! Je m'appelle Régis Kaleba, développeur Fullstack et web-designer" />
         </div>
       </header>
+
+     
+
+
       
     </div>
   );

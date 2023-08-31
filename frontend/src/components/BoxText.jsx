@@ -24,6 +24,8 @@ TextBoxFrame.propTypes = {
     PropTypes.element
   ]).isRequired,
   size: PropTypes.oneOf(['tiny','small', 'medium', 'large']), // Prop pour la taille
+  
+
 };
 
 export default TextBoxFrame;
