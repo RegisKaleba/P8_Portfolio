@@ -5,12 +5,12 @@
     display: flex;
     flex-direction: column;
     width: 200px;
-    align-items: center; /* Centrer horizontalement */
-    justify-content: center; /* Centrer verticalement */
-    background-image: url('../assets/circlePaint.png'); /* Utilisez l'image comme arrière-plan */
+    align-items: center; 
+    justify-content: center; 
+    background-image: url('../assets/circlePaint.png'); 
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center center; /* Centrez l'arrière-plan */
+    background-position: center center; 
 
 }
 

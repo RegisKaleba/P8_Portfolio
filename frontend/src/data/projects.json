@@ -1,37 +1,18 @@
-[
-    {
-      "id": 1,
-      "titre": "Créez une application web de location immobilière avec React",
-      "logo": "/kasaLogo.png",
-      "image": "/kasaTesto.png",
-      "description": "Description du projet 1.",
-      "competences": ["React", "Sass", "JavaScript"],
-      "lien": "https://kasa-op.vercel.app/"
-    },
-    {
-      "id": 2,
-      "titre": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
-      "logo": "/bookiLogo.png",
-      "image": "/bookiTesto.png",
-      "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-      "competences": ["Html", "CSS"],
-      "lien": "https://lien-du-projet-2.com"
-    },
-    {
-      "id": 3,
-      "titre": "Développez le back-end d'un site de notation de livres",
-      "logo": "/mvgLogo.png",
-      "image": "mvgSite.png",
-      "description": "Vous êtes développeur back-end en freelance depuis maintenant un an dans la région de Lille. */ Il s’agit d’une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres.  ",
-      "competences": ["React", "Node.js", "MongoDB"],
-      "lien": "https://lien-du-projet-3.com"
+[   {
+    "id": 2,
+    "titre": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+    "logo": "/bookiLogo.png",
+    "image": "/bookiTesto.png",
+    "description": "Le projet s'agit d'intégrer l'interface d'un site, avec du code HTML et CSS, qui permette aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.\rCe sont les premiers pas en tant que développeur et la découverte d'outils comme VSC et GitHub.",
+    "competences": ["Html", "CSS"],
+    "lien": "https://lien-du-projet-2.com"
     },
     {
       "id": 4,
       "titre": "Créez une page web dynamique avec JavaScript",
       "logo": "/bluelLogo.png",
-      "image": "bluelLogo.png",
-      "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+      "image": "bluelSite.png",
+      "description": "Le projet consiste en la réalisation du frontend d'un site portfolio pour l'architecte d’intérieur Sophie Bluel. Nous avons été familiarité avec le concept de Kanban, les API et la documentation JSON.",
       "competences": ["Html", "CSS", "JavaScript"],
       "lien": "https://lien-du-projet-3.com"
     },
@@ -40,8 +21,29 @@
       "titre": "Débuggez et optimisez un site de photographe",
       "logo": "/carducciLogo.png",
       "image": "/carducciSite.png",
-      "description": "Vous êtes développeur freelance, et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Pour ce faire, vous avez analysé plusieurs sites internet. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé l’un de vos amis.",
+      "description": "Le projet réside en l'optimisation du site potfolio de la photographe Nina Carducci. Après avoir consulté le document de l'audit, il s'agira de corriger et d'optimiser le site afin d'obtenir à terme un meilleur SEO et de fournir un rapport d’intervention.",
       "competences": ["Audit", "Lighthouse", "JavaScript"],
       "lien": "https://lien-du-projet-3.com"
+    },
+    {
+      "id": 1,
+      "titre": "Créez une application web de location immobilière avec React",
+      "logo": "/kasaLogo.png",
+      "image": "/kasaTesto.png",
+      "description": "Le projet consiste en une refonte totale d'un site obsolète pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. ",
+      "competences": ["React", "Sass", "JavaScript"],
+      "lien": "https://kasa-op.vercel.app/"
+    },
+
+    {
+      "id": 3,
+      "titre": "Développez le back-end d'un site de notation de livres",
+      "logo": "/mvgLogo.png",
+      "image": "mvgSite.png",
+      "description": "Il s'agit de mettre en place un site de référencement et de notation de livres. Le projet se concentre sur la partie Backend et s'articule autour de la création de la base de donnée et la gestion de l'authentification.",
+      "competences": ["React", "Node.js", "MongoDB"],
+      "lien": "https://lien-du-projet-3.com"
     }
+    
+    
   ]

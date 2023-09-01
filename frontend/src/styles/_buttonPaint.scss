@@ -5,17 +5,17 @@
     border: none;
     cursor: pointer;
     font-size: 16px;
-    position: relative; /* Nécessaire pour le positionnement absolu */
+    position: relative; 
   }
   
   .button-container {
-    position: relative; /* Nécessaire pour le positionnement absolu */
+    position: relative; 
     display: inline-block;
   }
   
   .button-image {
-    width: 100px; /* Ajustez la largeur selon vos besoins */
-    height: 100px; /* Ajustez la hauteur selon vos besoins */
+    width: 100px; 
+    height: 100px; 
   }
   
   .button-label {

@@ -1,9 +1,8 @@
-/* Styles pour l'élément racine App */
 .App {
-  min-height: 100vh; /* Hauteur minimale de 100% de la vue (viewport) */
+  min-height: 100vh; 
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centre horizontalement */
+  align-items: center; 
   background-image: url('../assets/whiteWall.jpg'); /* Utilisez l'image comme arrière-plan */
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,11 +19,10 @@
 
   .custom-button {
     margin-left: 100px;
-    margin-right: 100px; /* Ajuster l'espacement horizontal */
+    margin-right: 100px; 
   }
 
 }
-
 
 .App-header {
   display: flex;
@@ -35,13 +33,42 @@
 }
 
 .testo {
-  width: 600px; /* Ajustez la taille du logo selon vos besoins */
+  width: 600px; /* Ajustez la taille du logo  */
 
 }
 
 .BoxTextHome {
-
-  width:500px; /* Ajuste la largeur en fonction du contenu */
+  width:500px; 
   background-color: #fff;
+}
 
+
+@media screen and (max-width: 625px) {
+  .nav-bar {
+   
+  
+    .custom-button {
+      margin-left: 50px;
+      margin-right: 50px; 
+    }
+  
+  }
+
+  .testo {
+
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .nav-bar {
+   
+  
+    .custom-button {
+      margin-left: 0px;
+      margin-right: 0px; 
+    }
+  
+  }
 }

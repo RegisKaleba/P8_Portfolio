@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import classNames from 'classnames'; // Importer la bibliothèque classNames
-import '../styles/_boxText.scss'; // Importation des styles CSS
+import classNames from 'classnames'; 
+import '../styles/_boxText.scss'; 
 
 const TextBoxFrame = ({ content, size }) => {
   const className = classNames('text-box-frame', {
-    'large': size === 'large', // Appliquer la classe 'large' si la taille est 'large'
-    'medium': size === 'medium', // Appliquer la classe 'small' si la taille est 'small'
-    'small': size === 'small', // Appliquer la classe 'small' si la taille est 'small'
-    'tiny': size === 'tiny', // Appliquer la classe 'small' si la taille est 'small'
+    'large': size === 'large', 
+    'medium': size === 'medium', 
+    'small': size === 'small', 
+    'tiny': size === 'tiny', 
   });
 
   return (

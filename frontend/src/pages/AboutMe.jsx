@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavLink from '../components/NavLink';
 import Footer from '../components/Footer';
-import Dropdown from '../components/Dropdown'; // Assurez-vous que le chemin est correct
+import Dropdown from '../components/Dropdown'; 
 
 
 function About() {

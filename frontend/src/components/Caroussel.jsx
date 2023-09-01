@@ -8,13 +8,13 @@ function Carousel({ pictures, onChange }) {
   const handlePreviousSlide = () => {
     const prevSlide = currentSlide === 0 ? pictures.length - 1 : currentSlide - 1;
     setCurrentSlide(prevSlide);
-    onChange(prevSlide); // Appel de la fonction onChange avec le nouvel index
+    onChange(prevSlide); 
   };
 
   const handleNextSlide = () => {
     const nextSlide = currentSlide === pictures.length - 1 ? 0 : currentSlide + 1;
     setCurrentSlide(nextSlide);
-    onChange(nextSlide); // Appel de la fonction onChange avec le nouvel index
+    onChange(nextSlide); 
   };
 
   return (

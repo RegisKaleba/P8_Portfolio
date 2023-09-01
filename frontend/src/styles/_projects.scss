@@ -1,4 +1,4 @@
-/* Dans le fichier _app.scss */
+
 @import './_boxText.scss';
 
 .title-container {
@@ -10,16 +10,17 @@
 
 .infos {
     display: flex;
-    justify-content: space-around; /* Espace équitable entre les éléments */ 
+    justify-content: space-around; 
   }
 
   .box2 {
     width: 320px;
     justify-content: space-between;
-    margin: 0px auto; /* Centre horizontalement avec 20px de marge verticale */
-    text-align: center; /* Centrer le texte */
+    margin: 0px auto; 
+    text-align: center; 
     display: inline-block;
     font-family: 'Acme';
+    color: white;
 }
 
 .centredTitle {
@@ -30,5 +31,86 @@
 .centered-link {
   display: flex;
   justify-content: center;
-  margin-top: 20px; /* Ajustez la marge selon vos besoins */
+  margin-top: 20px; 
+}
+
+.diff {
+  
+  width: 320px;
+  justify-content: space-between;
+  margin: 0px auto; 
+  text-align: center; 
+  display: inline-block;
+  font-family: 'Acme';
+  color: white;
+
+}
+
+@media screen and (max-width: 1200px) {
+  .infos {
+    flex-wrap: wrap;
+  }
+  
+}
+
+@media screen and (max-width: 1149px) {
+
+  .box2 {
+   margin: 0;
+   
+  }
+ .small {
+  margin: 20px auto; 
+  height: 20px;
+ 
+ }
+ .diff{
+
+width: 500px;
+margin-left: 25px;
+margin-right: 25px;
+
+ }
+
+
+}
+@media screen and (max-width: 829px) {
+
+  .styledText {
+
+    font-size: 40px;
+  }
+
+.diff {
+
+  margin-left: 0px;
+margin-right: 0px;
+}
+
+
+.box2 {
+  width: 500px;
+
+}
+  
+
+}
+
+@media screen and (max-width: 560px) {
+
+  .box2 {
+    width: 300px;
+  
+  }
+
+  .diff {
+    width: 300px;
+    
+  }
+
+  .large {
+    width: 50%;
+
+  }
+
 }

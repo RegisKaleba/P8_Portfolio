@@ -28,14 +28,14 @@
         height: 14px;
         width: 24px;
         transition: transform 0.3s;
-        transform: rotate(180deg); /* Ajoutez cette ligne pour inverser l'image par défaut */
+        transform: rotate(180deg); 
       }
     
       &.open {
         /* ... */
     
         img {
-          transform: rotate(0); /* Modifiez cette ligne pour réinitialiser la rotation lorsque le dropdown est ouvert */
+          transform: rotate(0); 
         }
       }
     }

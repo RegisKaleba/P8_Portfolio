@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import NavLink from '../components/NavLink';
-import TextBoxFrame from '../components/BoxText'; // Assurez-vous que le chemin est correct
+import TextBoxFrame from '../components/BoxText'; 
 import Carousel from '../components/Caroussel';
 import jsonData from '../data/projects.json';
 
@@ -34,14 +34,19 @@ function Projects() {
       <div className="infos">
 
         <div className='box2'>
+          
         <TextBoxFrame size="medium" content={currentProject.description} />
         <TextBoxFrame size="medium" content={currentProject.competences.join(', ')} />
         </div>
+        <div className='testtesti'>
         <TextBoxFrame size="large"  content={<img src={currentProject.image} alt="Projet" />} />
+        </div>
+        <div className='diff'>
         <TextBoxFrame size="small" content={currentProject.competences.join(', ')} />
-      
+        </div>
+  
       </div>
-
+      
 
     </div>
   );

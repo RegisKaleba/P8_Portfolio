@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../components/ButtonPaint';
 import { Link } from 'react-router-dom';
-import '../styles/_navLink.scss'; // Importation des styles CSS
+import '../styles/_navLink.scss'; 
 
 const NavLink = () => {
   return (

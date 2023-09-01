@@ -2,7 +2,7 @@ import React from 'react';
 import NavLink from '../components/NavLink';
 import Logo from '../components/Logo';
 import jsonData from '../data/skills.json';
-import '../styles/_skills.scss'; // Ajoutez les styles CSS nécessaires
+import '../styles/_skills.scss';
 
 function Skills() {
   const frontendSkills = jsonData.filter(skill => skill.Skills === 'Frontend');
