@@ -5,7 +5,9 @@
     "image": "/bookiTesto.png",
     "description": "Le projet s'agit d'intégrer l'interface d'un site, avec du code HTML et CSS, qui permette aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.\rCe sont les premiers pas en tant que développeur et la découverte d'outils comme VSC et GitHub.",
     "competences": ["Html", "CSS"],
-    "lien": "https://lien-du-projet-2.com"
+    "lien": "https://regiskaleba.github.io/Booki-Projet-2-Openclassroom/",
+    "défi": "La principale difficuté de ce projet fut de  s'assurer que votre site fonctionne correctement sur tous les navigateurs (Chrome, Firefox, Safari, Edge, etc.). Ce projet m'a permis de découvrir la necessité d'user et d'abuser de la console afin de traquer les erreurs et de les résoudre."
+
     },
     {
       "id": 4,
@@ -14,7 +16,8 @@
       "image": "bluelSite.png",
       "description": "Le projet consiste en la réalisation du frontend d'un site portfolio pour l'architecte d’intérieur Sophie Bluel. Nous avons été familiarité avec le concept de Kanban, les API et la documentation JSON.",
       "competences": ["Html", "CSS", "JavaScript"],
-      "lien": "https://lien-du-projet-3.com"
+      "lien": "https://github.com/RegisKaleba/Portfolio-Bluel",
+      "défi": "La principale difficuté de ce projet fut de gérer un code complexe et de rester dans les délais. Si rester dans les délais m'a été imposible, je sais néanmoins à présent quels sont certaisn écueils à éviter et où chercher de l'aide."
     },
     {
       "id": 5,
@@ -23,7 +26,8 @@
       "image": "/carducciSite.png",
       "description": "Le projet réside en l'optimisation du site potfolio de la photographe Nina Carducci. Après avoir consulté le document de l'audit, il s'agira de corriger et d'optimiser le site afin d'obtenir à terme un meilleur SEO et de fournir un rapport d’intervention.",
       "competences": ["Audit", "Lighthouse", "JavaScript"],
-      "lien": "https://lien-du-projet-3.com"
+      "lien": "https://regiskaleba.github.io/Nina-Carducci/",
+      "défi": "La principale difficuté de ce projet fut d'avoir une compréhension approfondie des technologies, de la sécurité, de l'expérience utilisateur, etc. Synthétiser toutes ces informations en un rapport utile a parfois été complexe. Des outils comme lighthouse et wave m'int été d'un grand secours."
     },
     {
       "id": 1,
@@ -32,7 +36,8 @@
       "image": "/kasaTesto.png",
       "description": "Le projet consiste en une refonte totale d'un site obsolète pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. ",
       "competences": ["React", "Sass", "JavaScript"],
-      "lien": "https://kasa-op.vercel.app/"
+      "lien": "https://kasa-op.vercel.app/",
+      "défi": "La principale difficuté de ce projet fut de maîtriser react et sass, une façon de gérer l'HTML et le CSS de façon bien différente. Il aura fallut faire preuve de minutie pour comprendre la principe des routes et le mettre en oeuvre."
     },
 
     {
@@ -42,7 +47,8 @@
       "image": "mvgSite.png",
       "description": "Il s'agit de mettre en place un site de référencement et de notation de livres. Le projet se concentre sur la partie Backend et s'articule autour de la création de la base de donnée et la gestion de l'authentification.",
       "competences": ["React", "Node.js", "MongoDB"],
-      "lien": "https://lien-du-projet-3.com"
+      "lien": "https://github.com/RegisKaleba/P7-mon-vieux-grimoire",
+      "défi": "La principale difficuté de ce projet fut de faire le lien etre le front-end et le back-end et de concevoir la structure de la base de données (schéma) pour qu'elle réponde aux besoins de l'application. Les cours en ligne d'Openclassroom m'ont permis de créer pas à pas ma BDD MongoDB."
     }
     
     

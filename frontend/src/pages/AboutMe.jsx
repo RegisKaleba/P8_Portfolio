@@ -12,19 +12,17 @@ function About() {
         },
         {
             h4: "Formations suivies",
-            article: ["Blablabla bliblablu"],
+            article: ["J'ai commencé à m'autoformer sur des sites comme Khanacademy ou Codecademy. Ce furent mes premiers pas dans le monde du developpement web. J'ai ensuite intégré, via Simplon, l'Apple Fundation programm qui m'a permis de travailler à la conception d'une application en utilisant SwiftUi et de me familiariser avec l'architecture Mac. J'ai ensuite commencé la formation Developpeur Web d'Openclassroom."],
         },
         {
             h4: "Service",
-            article: ["Blablabla bliblablu"],
+            article: ["Je tiens à remercier les personnes et organismes qui ont permis cette reconversion : Pôle Emploi, Sandrine Lempereur et Angélique Delanghe, Openclassroom et Romaric Pibolleau, la communauté Slack et Discord. "],
         },
         ];
 
   
 
-    let dropdownFontSize = {
-        fontSize: "24px",
-    }
+ 
 
     return(
         
@@ -35,11 +33,11 @@ function About() {
                     </div>
 
                     <div className="title-container">
-                        <p className='styledText gradient-text'>Tralala</p>
+                        <p className='styledText gradient-text'>A savoir sur moi :</p>
                     </div>
                 
                     <div className='dropdowns-container'>
-                        {dropdownContent.map((dropdown, index) => <Dropdown key={`${dropdown}-${index}`} dropdownContent={dropdown}  dropdownFontSize={dropdownFontSize}/>)}
+                        {dropdownContent.map((dropdown, index) => <Dropdown key={`${dropdown}-${index}`} dropdownContent={dropdown}  />)}
                     </div>
                 </div>
                 <div className='blank'>
@@ -47,8 +45,6 @@ function About() {
                 </div>
                 <Footer />
             </div>
-            
-
         
     );
 }

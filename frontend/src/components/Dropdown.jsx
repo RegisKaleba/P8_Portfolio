@@ -3,9 +3,6 @@ import upArrow from '../assets/leftArrow1.png';
 
 function Dropdown(props) {
   const dropdownContent = props.dropdownContent;
-  
-  const dropdownFontSize = props.dropdownFontSize;
-
   const [currentState, setCurrentState] = useState(false);
 
   const openCloseDropdown = () => {
@@ -21,10 +18,10 @@ function Dropdown(props) {
   return (
     <div className='dropdown-container' >
       <div className={`dropdown ${currentState ? 'open' : ''}`} onClick={openCloseDropdown}>
-        <h4 style={dropdownFontSize}>{dropdownContent.h4}</h4>
+        <h4 >{dropdownContent.h4}</h4>
         <img src={arrowDropdown} alt='' />
       </div>
-      <article className='dropdown-content' style={{ ...articleStyles, ...dropdownFontSize }}>
+      <article className='dropdown-content' style={{ ...articleStyles}}>
         {dropdownContent.article.map((string, index) => (
           <p key={`${string}-${index}`}>{string}</p>
         ))}

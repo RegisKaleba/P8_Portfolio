@@ -18,8 +18,8 @@
       border-radius: 5px;
       padding: 0 20px 0 20px;
       margin: 0 20% 0 20%;
-      font-weight: 500;
-      font-size: 18px;
+     
+      font-size: 25px;
       color: #ffffff;
       transition: background-color 0.3s;
       cursor: pointer;
@@ -42,16 +42,13 @@
   
     .dropdown-content {
       font-family: 'Acme';
+      color: #932A93;
       min-height: 130px;
       background: #f7f7f7;
       border-radius: 10px;
       margin: 0 20% 0 20%;
       padding: 40px 20px;
-   
       z-index: -1;
-     
-    
-      color: #ff6060;
       transition: opacity 0.3s, transform 0.3s;
   
       p {
@@ -71,8 +68,20 @@
 
       height: 50px;
     }
+
+    .blank2 {
+      height: 50px;
+
+    }
   
-    @media all and (max-width: 1000px) {
+    @media all and (max-width: 530px) {
+
+      .blank {
+
+        height: 10px;
+      }
+
+     
       margin: 0 0 20px 0;
   
       &:last-of-type {
@@ -80,9 +89,15 @@
       }
   
       .dropdown {
+
+        h4 {
+          font-size: 15px;
+  
+        }
+  
         height: 30px;
         padding: 0 10px 0 10px;
-        font-size: 13px;
+        font-size: 15px;
   
         img {
           height: 10px;
@@ -91,7 +106,7 @@
       }
   
       .dropdown-content {
-        font-size: 12px;
+        font-size: 13px;
         min-height: 50px;
         padding: 23px 10px;
       }

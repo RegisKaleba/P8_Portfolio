@@ -42,7 +42,7 @@ function Projects() {
         <TextBoxFrame size="large"  content={<img src={currentProject.image} alt="Projet" />} />
         </div>
         <div className='diff'>
-        <TextBoxFrame size="small" content={currentProject.competences.join(', ')} />
+        <TextBoxFrame size="small" content={currentProject.défi} />
         </div>
   
       </div>

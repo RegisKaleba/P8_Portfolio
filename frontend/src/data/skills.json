@@ -29,19 +29,19 @@
       "Skills": "Backend",
       "Logo": "/nodeJSLogo.png",
       "Nom": "Node.js",
-      "Rating": 3
+      "Rating": 2
     },
     {
         "Skills": "Backend",
         "Logo": "/mongoDBLogo.png",
         "Nom": "MongoDB",
-        "Rating": 3
+        "Rating": 2
       },
       {
         "Skills": "Backend",
         "Logo": "/expressLogo.webp",
         "Nom": "Express.js",
-        "Rating": 3
+        "Rating": 2
       },  
     {
       "Skills": "Autres",
@@ -53,6 +53,12 @@
         "Skills": "Autres",
         "Logo": "figmaLogo.png",
         "Nom": "Figma",
-        "Rating": 1
+        "Rating": 2
+      },
+      {
+        "Skills": "Autres",
+        "Logo": "gitHubLogo.png",
+        "Nom": "GitHub",
+        "Rating": 2
       }
   ]
