@@ -44,7 +44,7 @@
       "id": 3,
       "titre": "Développez le back-end d'un site de notation de livres",
       "logo": "/mvgLogo.png",
-      "image": "mvgSite.png",
+      "image": "/mvgSite.png",
       "description": "Il s'agit de mettre en place un site de référencement et de notation de livres. Le projet se concentre sur la partie Backend et s'articule autour de la création de la base de donnée et la gestion de l'authentification.",
       "competences": ["React", "Node.js", "MongoDB"],
       "lien": "https://github.com/RegisKaleba/P7-mon-vieux-grimoire",
